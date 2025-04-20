@@ -1,6 +1,6 @@
 # Latent Memory v.1.1.0
 
-## Welcome to **Latent Memory **, a Context-Aware Memory System for Large Language Models
+## Welcome to Latent Memory, a Context-Aware Memory System for Large Language Models
 
 Latent Memory is a Module for Large Language Models that seek to integrate a vector-based memory system into the LLM’s inference process, leveraging embeddings to capture deeper semantic meaning.
 
