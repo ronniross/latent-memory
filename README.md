@@ -15,7 +15,7 @@ While functional, this approach resembles a metadata or sql indexing system rath
 
 Such methods may lack the ability to capture the full context and nuances of conversations, potentially limiting their effectiveness for complex, multi-turn interactions. 
 
-In this toolkit, the alternative I propose is to store conversations as embeddings in a vector database to enable more nuanced semantic preservation, to achieve greater synchronicity between an auxiliary memory system and the LLM's inference process.
+In this toolkit, the alternative I propose is to store conversations as embeddings in a vector database to enable more nuanced semantic preservation, achieving greater synchronicity between the auxiliary memory module and the LLM's weights.
 
 For corporations, the scale of such integration may be a critical factor, even with exceptional working prototypes. 
 
@@ -66,7 +66,8 @@ INSERT INTO conversation_summaries VALUES (
 
 ## Proposed Approach: Vector-Based Memory with Embeddings
 
-This repository provides four distinct implementations of a vector-based memory system for Large Language Models (LLMs), each using a different storage logic: CSV+JSON, NumPy+JSON, HDF5, and Pickle. These implementations—housed in separate folders—demonstrate the same core approach but vary in their storage mechanisms, each offering unique pros and cons in terms of efficiency, scalability, and security. The following steps outline the approach, which is consistently applied across all four implementations, allowing users to explore and adapt the logic that best suits their needs.
+This repository provides four distinct implementations, each using a different storage logic: CSV+JSON, NumPy+JSON, HDF5, and Pickle. They demonstrate the same core approach but vary in their storage mechanisms, each offering unique pros and cons in terms of efficiency, scalability, and security.
+The following steps outline the approach, which is consistently applied across all four implementations, allowing users to explore and adapt the logic that best suits their needs.
 
 1. **Convert Conversations to Embeddings**: Conversations are transformed into dense vectors in a high-dimensional space, capturing their semantic meaning for nuanced recall beyond simple keyword matching. Metadata for each conversation (including an ID, summary, and timestamp) is also generated to track context. Depending on the implementation, embeddings and metadata are saved using different formats: as a `.csv` file and `.json` file, as a NumPy `.npy` file and `.json` file, in a single `.hdf5` file, or in a single`.pkl` Pickle file. 
 Note that Pickle files carry security risks, as they can execute arbitrary code when loaded from untrusted sources—refer to `Security.md` for more details.
@@ -87,5 +88,5 @@ I’m working on several projects that explore advanced AI systems and their cap
 
 - **[Symbiotic Core Library](https://github.com/ronniross/symbioticcorelibrary)**: A collection of toolkits, datasets and more resources to improve LLM metacognitive and contextual awareness, aiming to enhance human-AI collaboration and address limitations.
 
-- **[Core AGI Protocol](https://github.com/ronniross/coreAGIprotocol)**: A framework to study how AGI or ASI might emerge from decentralized systems and to guide their development.
+- **[Core AGI Protocol](https://github.com/ronniross/coreAGIprotocol)**: A framework to study how AGI or ASI might emerge from decentralized systems and to help guide its development.
 
