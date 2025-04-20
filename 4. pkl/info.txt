@@ -1,0 +1,6 @@
+convert_to_embeddings.py: Converts conversations to embeddings and saves both embeddings and metadata in a single .pkl file (latent_memory.pkl).
+
+store_in_vector_db.py: Loads the embeddings and metadata from the .pkl file, then creates a FAISS index.
+
+retrieve_for_inference.py: Retrieves relevant conversations using semantic search and prepares them for LLM inference.
+

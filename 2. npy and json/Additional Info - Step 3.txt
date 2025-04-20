@@ -1,0 +1,11 @@
+Script 3: retrieve_for_inference.py
+This script retrieves relevant conversations using semantic search and prepares them for LLM inference.
+
+Model Placeholder: Included a placeholder for model loading and query embedding, keeping the script focused on retrieval.
+
+Loading Metadata: Loads metadata.json as before.
+
+Retrieval and Formatting: Retrieves the top-2 conversations and formats them as context.
+
+Dependencies: Requires numpy and faiss-cpu (pip install numpy faiss-cpu).
+

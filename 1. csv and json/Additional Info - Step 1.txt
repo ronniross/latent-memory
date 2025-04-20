@@ -1,0 +1,14 @@
+Script 1: convert_to_embeddings.py
+This script converts conversations to embeddings, saves the embeddings as a CSV file, and saves the metadata as a JSON file.
+python
+
+
+Notes:
+Model Placeholder: Replaced the model loading and embedding generation with a comment (# Here your logic to load your model) and a placeholder (np.random.rand) to simulate embeddings. Users can insert their own model (e.g., Sentence Transformers) here.
+
+CSV for Embeddings: Embeddings are saved as embeddings.csv using pandas.DataFrame.to_csv. Each row represents an embedding vector, with columns corresponding to the embedding dimensions.
+
+JSON for Metadata: Metadata is saved as metadata.json, as in the original prototype.
+
+Dependencies: Requires numpy and pandas (pip install numpy pandas).
+

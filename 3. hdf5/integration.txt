@@ -1,0 +1,32 @@
+How to Run
+Install Dependencies:
+bash
+
+pip install numpy h5py faiss-cpu
+
+Run the Scripts in Order:
+First, run convert_to_embeddings.py to generate and save embeddings and metadata in latent_memory.h5.
+bash
+
+python convert_to_embeddings.py
+
+Next, run store_in_vector_db.py to create and save the FAISS index.
+bash
+
+python store_in_vector_db.py
+
+Finally, run retrieve_for_inference.py to perform a semantic search and prepare context for inference.
+bash
+
+python retrieve_for_inference.py
+
+
+
+Single File Storage: By storing both embeddings and metadata in latent_memory.h5, this implementation ensures consistency and simplifies file management, as you noted earlier.
+
+
+
+HDF5 Benefits: HDF5 provides scalability and the ability to store structured data (via compound types for metadata), making it a robust choice for this prototype.
+
+Modularity: The placeholder for model loading keeps the scripts flexible, allowing users to insert their preferred embedding model.
+

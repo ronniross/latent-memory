@@ -1,0 +1,11 @@
+Script 3: retrieve_for_inference.py
+This script retrieves relevant conversations using semantic search and prepares them for LLM inference. Since the metadata is stored as a NumPy structured array with byte strings, we’ll decode the strings when formatting the context.
+
+Model Placeholder: Included a placeholder for model loading and query embedding, keeping the script focused on retrieval.
+
+Loading from HDF5: Loads the metadata from latent_memory.h5 as a NumPy structured array.
+
+String Decoding: Decodes the byte strings (e.g., b"conv_1") to regular strings when formatting the context.
+
+Dependencies: Requires numpy, h5py, and faiss-cpu (pip install numpy h5py faiss-cpu).
+

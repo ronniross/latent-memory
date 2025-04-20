@@ -1,0 +1,9 @@
+Script 1: convert_to_embeddings.py
+This script converts conversations to embeddings and saves both embeddings and metadata in a single .pkl file using pickle.
+
+Model Placeholder: Included a comment for model loading and a placeholder for embeddings (np.random.rand) to keep the script focused on storage logic.
+
+Pickle for Both Embeddings and Metadata: Both embeddings and metadata are stored in latent_memory.pkl. They’re saved as a single dictionary with keys "embeddings" (NumPy array) and "metadata" (list of dicts).
+
+Dependencies: Requires numpy (pip install numpy). The pickle module is part of Python’s standard library, so no additional installation is needed.
+

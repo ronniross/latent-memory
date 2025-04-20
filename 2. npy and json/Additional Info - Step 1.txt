@@ -1,0 +1,12 @@
+Script 1: convert_to_embeddings.py
+This script converts conversations to embeddings, saves the embeddings as a .npy file, and saves the metadata as a JSON file.
+
+Notes:
+Model Placeholder: Included a comment for model loading and a placeholder for embeddings (np.random.rand) to keep the script focused on storage logic.
+
+NumPy for Embeddings: Embeddings are saved as embeddings.npy using np.save, which is a binary format optimized for numerical data.
+
+JSON for Metadata: Metadata is saved as metadata.json, consistent with the previous implementation.
+
+Dependencies: Requires numpy (pip install numpy).
+

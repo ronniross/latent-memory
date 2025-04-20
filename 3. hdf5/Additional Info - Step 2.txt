@@ -1,0 +1,9 @@
+Script 2: store_in_vector_db.py
+This script loads the embeddings and metadata from the HDF5 file and creates a FAISS index for semantic search.
+
+Loading from HDF5: Loads both embeddings and metadata from latent_memory.h5. The metadata is a NumPy structured array with fields conversation_id, summary, and timestamp.
+
+FAISS Index: Creates a FAISS index using IndexFlatIP, as before.
+
+Dependencies: Requires numpy, h5py, and faiss-cpu (pip install numpy h5py faiss-cpu).
+

@@ -1,0 +1,28 @@
+How to Run
+Install Dependencies:
+bash
+
+pip install numpy pandas faiss-cpu
+
+Run the Scripts in Order:
+First, run convert_to_embeddings.py to generate and save embeddings and metadata.
+bash
+
+python convert_to_embeddings.py
+
+Next, run store_in_vector_db.py to create and save the FAISS index.
+bash
+
+python store_in_vector_db.py
+
+Finally, run retrieve_for_inference.py to perform a semantic search and prepare context for inference.
+bash
+
+python retrieve_for_inference.py
+
+
+
+CSV Drawbacks: As noted earlier, CSV is not the most efficient format for embeddings due to its size and speed, but it’s human-readable and easy to inspect, which might be useful for debugging or small-scale projects.
+
+Generalization: Users can plug in their own embedding model by replacing the placeholder logic, making this implementation flexible for different use cases.
+

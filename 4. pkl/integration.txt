@@ -1,0 +1,33 @@
+How to Run
+Install Dependencies:
+bash
+
+pip install numpy faiss-cpu
+
+Run the Scripts in Order:
+First, run convert_to_embeddings.py to generate and save embeddings and metadata in latent_memory.pkl.
+bash
+
+python convert_to_embeddings.py
+
+Next, run store_in_vector_db.py to create and save the FAISS index.
+bash
+
+python store_in_vector_db.py
+
+Finally, run retrieve_for_inference.py to perform a semantic search and prepare context for inference.
+bash
+
+python retrieve_for_inference.py
+
+.
+Single File Storage: By storing both embeddings and metadata in latent_memory.pkl, this implementation ensures consistency and simplifies file management, similar to the HDF5 approach.
+
+
+Pickle Considerations:
+Pros: Simple to use, flexible (can serialize most Python objects), and consolidates everything into one file.
+
+Cons: Less robust than HDF5 or NumPy+JSON. Pickle files can pose security risks (arbitrary code execution when loading untrusted files) and may not be compatible across Python versions or library versions.
+
+Modularity: The placeholder for model loading keeps the scripts flexible, allowing users to insert their preferred embedding model.
+

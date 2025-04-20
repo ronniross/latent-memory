@@ -1,0 +1,6 @@
+convert_to_embeddings.py: Converts conversations to embeddings and saves them as a CSV file (embeddings.csv) and metadata as a JSON file (metadata.json).
+
+store_in_vector_db.py: Loads the embeddings from CSV and metadata from JSON, then creates a FAISS index.
+
+retrieve_for_inference.py: Retrieves relevant conversations using semantic search and prepares them for LLM inference.
+

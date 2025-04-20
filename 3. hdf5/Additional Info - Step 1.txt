@@ -1,0 +1,11 @@
+Script 1: convert_to_embeddings.py
+This script converts conversations to embeddings and saves both embeddings and metadata in a single HDF5 file using h5py.
+
+Model Placeholder: Included a comment for model loading and a placeholder for embeddings (np.random.rand) to keep the script focused on storage logic.
+
+HDF5 for Both Embeddings and Metadata: Both embeddings and metadata are stored in latent_memory.h5. Embeddings are saved as a dataset named embeddings, and metadata is saved as a dataset named metadata using a compound data type.
+
+String Length Limits: Set reasonable maximum lengths for strings in the metadata (S10 for conversation_id, S200 for summary, S20 for timestamp). These can be adjusted if needed.
+
+Dependencies: Requires numpy and h5py (pip install numpy h5py).
+

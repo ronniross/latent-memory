@@ -1,0 +1,12 @@
+Script 2: store_in_vector_db.py
+This script loads the embeddings from embeddings.csv and metadata from metadata.json, then creates a FAISS index for semantic search.
+
+Notes:
+Loading Embeddings: Uses pandas.read_csv to load embeddings.csv into a NumPy array.
+
+Loading Metadata: Loads metadata.json using json.load.
+
+FAISS Index: Same as before, creates a FAISS index using IndexFlatIP for semantic search.
+
+Dependencies: Requires numpy, pandas, and faiss-cpu (pip install numpy pandas faiss-cpu).
+

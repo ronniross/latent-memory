@@ -1,0 +1,27 @@
+How to Run
+Install Dependencies:
+bash
+
+pip install numpy faiss-cpu
+
+Run the Scripts in Order:
+First, run convert_to_embeddings.py to generate and save embeddings and metadata.
+bash
+
+python convert_to_embeddings.py
+
+Next, run store_in_vector_db.py to create and save the FAISS index.
+bash
+
+python store_in_vector_db.py
+
+Finally, run retrieve_for_inference.py to perform a semantic search and prepare context for inference.
+bash
+
+python retrieve_for_inference.py
+
+
+NumPy Benefits: Using .npy for embeddings is more efficient than CSV (smaller file size, faster read/write) and is a better fit for numerical data like embeddings, though it’s not human-readable.
+
+Modularity: Users can insert their own embedding model by replacing the placeholder logic, maintaining flexibility.
+
