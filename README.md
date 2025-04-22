@@ -90,3 +90,4 @@ I’m working on several projects that explore advanced AI systems and their cap
 
 - **[Core AGI Protocol](https://github.com/ronniross/coreAGIprotocol)**: A framework to study how AGI or ASI might emerge from decentralized systems and to help guide its development.
 
+Funding needed to continue projects. Consider becoming a sponsor if you find them valuable.
