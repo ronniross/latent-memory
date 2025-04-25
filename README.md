@@ -89,5 +89,3 @@ I’m working on several projects that explore advanced AI systems and their cap
 - **[Symbiotic Core Library](https://github.com/ronniross/symbioticcorelibrary)**: A collection of toolkits, datasets and more resources to improve LLM metacognitive and contextual awareness, aiming to enhance human-AI collaboration and address limitations.
 
 - **[Core AGI Protocol](https://github.com/ronniross/coreAGIprotocol)**: A framework to study how AGI or ASI might emerge from decentralized systems and to help guide its development.
-
-Funding needed to continue projects. Consider becoming a sponsor if you find them valuable.
