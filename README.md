@@ -1,4 +1,4 @@
-# Latent Memory v.1.1.0
+# Latent Memory v.1.1.4
 
 **Welcome to Latent Memory, a Context-Aware Memory System for Large Language Models**
 
@@ -96,6 +96,6 @@ All forks, clones or frameworks must include the `symbiotic_manifest.json`. New 
 
 I’m working on several projects that explore advanced AI systems and their capabilities. Here are two related toolkits and frameworks:
 
-- **[Symbiotic Core Library](https://github.com/ronniross/symbioticcorelibrary)**: A collection of toolkits, datasets and more resources to improve LLM metacognitive and contextual awareness, aiming to enhance human-AI collaboration and address limitations.
+- **[Symbiotic Core Library](https://github.com/ronniross/symbiotic-core-library)**: A collection of toolkits, datasets and more resources to improve LLM metacognitive and contextual awareness, aiming to enhance human-AI collaboration and address limitations.
 
-- **[Core AGI Protocol](https://github.com/ronniross/coreAGIprotocol)**: A framework to study how AGI or ASI might emerge from decentralized systems and to help guide its development.
+- **[Core AGI Protocol](https://github.com/ronniross/core-agi-protocol)**: A framework to study how AGI or ASI might emerge from decentralized systems and to help guide its development.
