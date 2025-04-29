@@ -79,7 +79,7 @@ Note that Pickle files carry security risks, as they can execute arbitrary code 
 Here is a visual representation of how those embeddings are saved in the vector-database:
 
 <div align="center">
-  <img src=".github/vectormemoryindatabase.PNG" alt="Visualization of how embeddings are saved" />
+  <img src=".github/embeddings_visualization.PNG" alt="Visualization of how embeddings are saved" />
 </div>
 
 ## Rules
