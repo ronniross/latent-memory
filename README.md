@@ -4,10 +4,6 @@
 
 Latent Memory is a Module for Large Language Models that seek to integrate a vector-based memory system into the LLM’s inference process, leveraging embeddings to capture deeper semantic meaning.
 
-<div align="center">
-  <img src=".github/vectormemoryindatabase.PNG" alt="Visualization of how embeddings are saved" />
-</div>
-
 
 > This project is licensed under the MIT License.
 > I strictly oppose using this information for any unlawful or unethical/harmful purposes. I am not liable for any improper use of the information shared in this repository.
