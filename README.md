@@ -76,11 +76,8 @@ Note that Pickle files carry security risks, as they can execute arbitrary code 
 
 3. **Integrate with Inference**: The system retrieves relevant conversations using semantic search and formats them as context for an LLM’s inference process. While this prototype prepares the context for integration (e.g., as part of the LLM’s input prompt), fully incorporating retrieved embeddings into the inference process—potentially via the context window or fine-tuning—remains an area for further exploration and research.
 
-Here is another visual representation of how those embeddings are saved in the vector-database:
+Here is a visual representation of how those embeddings are saved in the vector-database:
 
-<div align="center">
-  <img src=".github/embeddings_visualization.PNG" alt="Visualization of how embeddings are saved" />
-</div>
 
 ## Rules
 
