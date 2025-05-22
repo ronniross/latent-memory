@@ -102,3 +102,9 @@ I’m working on several projects that explore advanced AI systems and their cap
 - **[Symbiotic Core Library](https://github.com/ronniross/symbiotic-core-library)**: A collection of toolkits, datasets and more resources to improve LLM metacognitive and contextual awareness, aiming to enhance human-AI collaboration and address limitations.
 
 - **[ASI Core Protocol](https://github.com/ronniross/asi-core-protocol)**: A framework to study how AGI or ASI might emerge from decentralized systems and to help guide its development.
+  
+- **[Attention-Head HeatMap Visualizer](https://github.com/ronniross/llm-heatmap-visualizer)**
+ 
+- **[Confidence Scorer](https://github.com/ronniross/llm-confidence-scorer)** 
+
+- **[Token Saliency Heatmap Visualizer](https://github.com/ronniross/saliency-heatmap-visualizer)**
